@@ -34,15 +34,7 @@ body {
   --shadow-color: rgba(15, 23, 42, 0.06);
 }
 
-.dark {
-  --bg: #0b1220; /* dark page background */
-  --text: #e5e7eb; /* gray-200 */
-  --muted: #9ca3af; /* gray-400 */
-  --card: #0f172a; /* dark card */
-  --nav-bg: #0b1220; /* navbar in dark */
-  --accent: #f59e0b;
-  --shadow-color: rgba(2, 6, 23, 0.6);
-}
+
 
 /* Apply variables globally */
 html, body {

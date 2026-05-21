@@ -8,7 +8,23 @@ const Navbar2 = () => {
                 <div className="container flex justify-between h-16 mx-auto">
                     <div className="flex justify-between w-full">
                         <Link href="/" aria-label="Back to homepage" className="flex items-center p-2">
-                            <p className=' font-semibold text-3xl'>LOGO</p>
+                            <div className="flex items-center space-x-3">
+                                {/* Simple crypto coin SVG */}
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" className="h-10 w-10" aria-hidden="true">
+                                  <defs>
+                                    <linearGradient id="g" x1="0" x2="1">
+                                      <stop offset="0%" stopColor="#f59e0b" />
+                                      <stop offset="100%" stopColor="#f97316" />
+                                    </linearGradient>
+                                  </defs>
+                                  <circle cx="32" cy="32" r="30" fill="url(#g)" />
+                                  <circle cx="32" cy="32" r="22" fill="#fff" opacity="0.06" />
+                                  <path d="M40 22c-1.5-1.5-4-2-7-2s-5.5.5-7 2c-1.5 1.5-2 4-2 7s.5 5.5 2 7c1.5 1.5 4 2 7 2s5.5-.5 7-2c1.5-1.5 2-4 2-7s-.5-5.5-2-7z" fill="#fff" opacity="0.9" />
+                                  <text x="32" y="37" textAnchor="middle" fontSize="14" fontWeight="700" fill="#fff">Ψ</text>
+                                </svg>
+
+                                <span className="font-semibold text-2xl select-none">CryptoTracker</span>
+                              </div>
                         </Link>
                         <ul className="items-stretch hidden space-x-3 lg:flex">
                             <li className="flex justify-between w-full">
